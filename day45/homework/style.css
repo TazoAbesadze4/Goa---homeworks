@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+/* homework File */
+.body1{
+    background-image: url(/images/photo/old\ page.avif);
+    background-size: 1900px;
+    color: black;
+}
+
+/* giorgi File */
+.body2{
+    background-image: url(https://www.pemptousia.ge/wp-content/uploads/2013/07/Agios-giorgi-Agioritis-100.jpg);
+    background-size: 1500px;
+    color: rgb(255, 132, 0);
+}
+
+/* iudaizmi File */
+.body3{
+    background-image: url(https://fikiwiki.com/uploads/posts/2022-02/1645011692_1-fikiwiki-com-p-kartinki-iudaizm-1.jpg);
+    background-size: 1900px;
+
+}
+
+/* kristianoba File */
+.body4{
+    background-image: url(https://wallpapercave.com/wp/SYIOryg.jpg);
+    background-size: 1500px;
+    color: aqua;
+}
+

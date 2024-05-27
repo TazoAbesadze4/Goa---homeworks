@@ -1,0 +1,109 @@
+<!-- <form> -->
+<!-- 1 -->
+    <!-- <label for="yourname">name: </label>
+    <input type="text" id="yourname" required> <br> <br>
+    <label for="lastname">lastname: </label>
+    <input type="text" id="lastname" required> 
+    <br> <br> -->
+
+<!-- 2 -->
+    <!-- <label for="python">python</label> 
+    <input type="radio" id="python" required>
+
+    <label for="HTML">HTML</label> 
+    <input type="radio" id="HTML" required>
+
+    <label for="CSS">CSS</label> 
+    <input type="radio" id="CSS" required> 
+    <br> <br> -->
+
+<!-- 3 -->
+    <!-- <label for="python1">python</label>
+    <input type="checkbox" id="python1">
+
+    <label for="HTML1">HTML</label>
+    <input type="checkbox" id="HTML1">
+
+    <label for="CSS1">CSS</label>
+    <input type="checkbox" id="CSS1"> 
+    <br> <br> -->
+
+<!-- 4 -->
+    <!-- <input type="email"> 
+    <br> -->
+
+<!-- 5 -->
+    <!-- <input type="password"> 
+    <br> -->
+    
+<!-- 6 -->
+    <!-- <input type="submit"> 
+    <br> <br> -->
+
+<!-- 7 -->
+    <!-- <input type="button"> 
+    <br> <br> -->
+
+<!-- 8 -->
+    <!-- <input type="date">
+
+</form> -->
+
+
+
+<!-- 
+1) შექმენით 5 ტიპის input და გატესტეთ როგორ მუშაობს, 
+გამოიტანეთ br'ების მეშვეობით ლამაზად, კარგი ფორმა მიეცით.
+
+2) პირველ დავალებაში გაკეთებულ input'ებს მიუწერეთ 
+კომენტარები და თქვენი სიტყვებით ახსენით რომელი რას აკეთებს. 
+ასევე ბოლოში მიამატეთ ახსნა როგორ და რისი მეშვეობით ვაკავშირებთ 
+input'ს და label'ს.
+
+3) ასევე გატესტეთ input type number.
+-->
+
+<html>
+    <head>
+        <title>my site</title>
+    </head>
+
+    <body>
+        <form>
+            <label for="name">name: </label> 
+            <input type="text" id="name" required> <br><br>
+            <!-- მომხმარებელს ვეკითხებით სახერლს 
+            ხოლო label-სა და input-ს ვაკავშირებთ for-ისა და 
+            id-ის მეშვეობით -->
+
+            <label for="surname">surname: </label>
+            <input type="text" id="surname" required> <br><br>
+            <!-- მომხმარებელს ვეკითხებით გვარს -->
+
+            <label for="age">age: </label>
+            <input type="number" id="age" required> <br><br>
+            <!-- მომხმარებელს ვეკითხებით მის წელს -->
+
+            <label for="school">school: </label>
+            <input type="text" id="school"> <br><br>
+            <!-- მომხმარებელს ვეკითხებით სკოლას -->
+
+            <label for="mail">email</label>
+            <input type="email" id="mail"> <br><br>
+            <!-- მომხმარებელს ვეკითხებით მეილს -->
+
+            <label for="gender">male</label>
+            <input type="radio" id="gender"> <br><br>
+
+            <label for="gender2">famale</label>
+            <input type="radio" id="gender2"> <br><br>
+            <!-- მომხმარებელს ვეკითხებით გენდერს -->
+
+            <input type="submit">
+            <!-- submit-ით ვაგზავნით ჩვენს შეყვანილ მონაცემებს -->
+        </form>
+    </body>
+</html>
+
+<!-- inpud და label ერთმანეთს id-ის და for-ის მეშვეობით
+უკავშირდებიან -->

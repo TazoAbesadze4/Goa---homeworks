@@ -1,0 +1,179 @@
+<!-- 
+<html>
+    <head>
+        <title>my work</title>
+    </head>
+
+    <body>
+        <form>
+            <select>
+                <option>choice 1</option>
+                <option>choice 2</option>
+                <option>choice 3</option>
+                <option>choice 4</option>
+                <option>choice 5</option>
+                <option>choice 6</option>
+            </select>
+        </form>
+    </body>
+</html>
+-->
+
+
+<!-- 
+1) შექმენით ფორმა სადაც გექნებათ სამი შესატანი ველი 
+1)სახელი, 2)გვარი,  3)იმეილი, select გამოიყენეთ სელექთი და მაგ 
+სელექთში დაამატეთ 5 ქვეყანა და საბოოდ ერთი ღილაკი რომლითაც 
+დაადასტურებენ თავიანთ არჩევანს
+-->
+
+<!-- 
+<form>
+    <input type="text" required placeholder="enter your name"> <br><br>
+    <input type="text" required placeholder="enter your surname"> <br><br>
+    <input type="email" required placeholder="enter your email"> <br><br>
+
+    <select>
+        <option>Georgia</option>
+        <option>Germany</option>
+        <option>USA</option>
+        <option>Brasil</option>
+        <option>Japan</option>
+    </select> <br><br>
+
+    <input type="submit">
+</form>
+-->
+
+<!-- 
+<form>
+    <input type="text" name="name" required placeholder="enter your name"> <br><br>
+    <input type="text" name="surname" required placeholder="enter your surname"> <br><br>
+    <input type="email" name="email" required placeholder="enter your email"> <br><br>
+
+    <select name="country">
+        <option value="GEO">Georgia</option>
+        <option value="GER">Germany</option>
+        <option>USA</option>
+        <option value="BRA">Brasil</option>
+        <option value="JAP">Japan</option>
+    </select> <br><br>
+
+    <input type="submit">
+</form>
+-->
+
+<!-- 
+3) შექმენით ორი შესატანი ველი მაგალითად იმეილი და პაროლი და 
+გამოიყენეთ ლეიბელ თეგი რომ დააკავშირო ერთმანეთთან 
+-->
+
+<!-- 
+<form>
+    <label for="email">email: </label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="pass">password</label>
+    <input type="text" name="password" id="pass" required>
+    <br><br>
+    <input type="submit">
+</form> 
+-->
+
+<!-- 
+4) შექმენით ფორმა სადაც გექნებათ 5 checkbox, 5 ჰობი იქნება 
+ჩამოწერილი და მომხმარებელმა უნდა აირჩიოს რამოდენიმე
+-->
+
+<!-- 
+<form>
+    <label>აირჩიე რამოდენიმე შენთვის სასურველი ჰობი</label>
+    <br><br>
+
+    <label for="hob">პროგრამირება</label>
+    <input type="checkbox" id="hob">
+    <br><br>
+    <label for="football">ფეხბურთი</label>
+    <input type="checkbox" id="football">
+    <br><br>
+    <label for="rugby">რაგბი</label>
+    <input type="checkbox" id="rugby">
+    <br><br>
+    <label for="basket">კალათბურთი</label>
+    <input type="checkbox" id="basket">
+    <br><br>
+    <label for="tennis">მაგიდის ტენისი</label>
+    <input type="checkbox" id="tennis">
+    <br><br>
+    <input type="submit">
+</form> 
+-->
+
+<!-- 
+5)შექმენით სარეგისტრაციო ფორმა სადაც მომხმარებელი შემოიტანს , 
+სრულ სახელს, იმეილს,პაროლი, და რო დავრწმუნდეთ რომ პაროლი
+ახსოვს, შემდეგ უნდა აირჩიოს მომხმარებელმათუ რაარის მისი ჰობი 5 
+ჰობიდან რომელიცაა ხოლო შემდეგ აირჩიოს თავისი გენდერი.
+-->
+
+ 
+<form>
+    <input type="text" name="name" placeholder="enter your name" required>
+    <br><br>
+    <input type="email" name="email" placeholder="enter your email" required>
+    <br><br>
+    <input type="password" name="password" placeholder="enter your password">
+    <br><br>
+
+    <label>რომელია შენი ჰობი: </label>
+    <br><br>
+
+    <label for="hob">პროგრამირება</label>
+    <input type="checkbox" id="hob" name="hobi" value="პროგრამირება">
+    <br><br>
+    <label for="football">ფეხბურთი</label>
+    <input type="checkbox" id="football" name="hobi" value="ფეხბურთი">
+    <br><br>
+    <label for="rugby">რაგბი</label>
+    <input type="checkbox" id="rugby" name="hobi" value="რაგბი">
+    <br><br>
+    <label for="basket">კალათბურთი</label>
+    <input type="checkbox" id="basket" name="hobi" value="კალათბურთი">
+    <br><br>
+    <label for="tennis">მაგიდის ტენისი</label>
+    <input type="checkbox" id="tennis" name="hobi" value="მაგიდის ტენისი">
+    <br><br>
+
+    <label>აირჩიე შენი გენდერი:</label> <br><br>
+    
+    <label for="gender">male</label>
+    <input type="radio" name="gender" id="gender" value="male">
+    <br><br>
+    <label for="gender2">famale</label>
+    <input type="radio" name="gender" id="gender2" value="famale"> <br><br>
+
+    <input type="submit">
+
+</form> 
+
+
+<br><br>
+
+<!-- 
+როგორ აირჩიოთ radio-ში ერთ-ერთი (რომელიმე). 
+როგორც ქვემოთაა მოცემული ->
+-->
+
+<!--  
+<form>
+    <label>enter your gender: </label> <br><br>
+
+    <input type="radio" id="male-radio" name="gender" value="male">
+    <label for="male-radio">male</label>
+    
+    <input type="radio" id="female-radio" name="gender" value="female">
+    <label for="female-radio">female</label> <br><br>
+
+    <input type="submit">
+</form>
+-->

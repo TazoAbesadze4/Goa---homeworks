@@ -1,0 +1,24 @@
+.body1{
+    color: rgb(240, 144, 0);
+    background-color: black;
+}
+
+.body2{
+    color: rgb(187, 255, 0);
+    background-color: black;
+}
+
+.body3{
+    color: coral;
+    background-color: rgb(27, 27, 27);
+}
+
+.body4{
+    color: greenyellow;
+    background-color: black;
+}
+
+.body5{
+    color: darkgray;
+    background-color: rgb(27, 27, 27);
+}
