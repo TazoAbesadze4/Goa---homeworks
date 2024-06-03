@@ -1,0 +1,32 @@
+body{
+    background-image: url(/images/photo/GOA\ photo.jpg);
+    background-size: 1400px;
+    text-align: center;
+}
+.img1{
+    border-radius: 50%;
+    width: 250;
+    height: 400;
+}
+#T1{
+    color: chartreuse;
+}
+.b{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.button{
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+}
+.about{
+    border-radius: 5px;
+}
+
+.main-about{
+    color: rgb(30, 0, 255);
+}
+
+.about1{
+    color: blueviolet;
+}
