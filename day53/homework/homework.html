@@ -1,69 +1,29 @@
 <!--  
 გააკეთეთ მსგავსი ვიზუალის მქონე საიტი
 -->
+<!-- 
+content, padding, border, margin
+-->
 
 <html>
     <head>
-        <title>Apartment</title>
-
-        <style>
-            body{
-                background-color: grey;
-                text-align: center;
-            }
-
-            /* #main{
-                content: 30px;
-
-                border: 50px;
-                border-color: aqua;
-
-                margin: 50px;
-
-                padding: 10px;
-            } */
-
-            .input{
-                border-radius: 10px;
-
-                width: 300px;
-                height: 30px;
-            }
-
-            .Sing-in{
-                width: 290px;
-                height: 30px;
-
-                border-radius: 10px;
-
-                background-color: rgb(70, 70, 185);
-            }
-
-            .Sing-up-2{
-                color: blue;
-            }
-
-            .p1{
-                background-color: blue;
-            }
-        </style>
-
+        <title>Register</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div id="main">
-            <h1>Sing in</h1>
-            <img src="https://purepng.com/public/uploads/large/purepng.com-settings-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596115dq1ho.png" width="40">
-            <br><br>
-            <!-- 
-            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/447785517_759383559741252_6479331397434645736_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeExTWm6BHeQbBtHayUZjWM4xnQOJ8cCWS7GdA4nxwJZLg1kza32Z1J_DY5RScROXT-XxNF6YjF6mBJw67G8jgY-&_nc_ohc=fX6lnjGei28Q7kNvgGx7uvN&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEEfi7_TQ2YVa7VhoSRJ11KKFnXlTANVzCw7aVPbUlUfA&oe=669BCD9E" width="400"> 
-            -->
-            <input class="input" type="email" placeholder="E-mail Address*" required>
-            <br><br>
-            <input class="input" type="password" placeholder="Password*" required>
-            <p>Forgot password</p>
-            <button class="Sing-in">Sing in</button>
-            <p>Dont have an account?<i class="Sing-up-2"> Sing up!</i></p>
+        <div class="main">
+            <h1 class="Signin">Sign in</h1>
+
+            <div class="inputs">
+                <input type="email" placeholder="E-mail address*">
+                <br><br>
+                <input type="password" placeholder="password*">
+                <p class="forgot">forgot password</p>
+                <button class="buton-Sign">Sign in</button>
+
+                <p>Don't gave an account?<i class="i-tag"> Sign up</i></p>
+            </div>
         </div>
     </body>
 </html>
