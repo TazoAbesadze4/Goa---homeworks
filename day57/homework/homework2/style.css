@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/357/984/original/colorful-abstract-circle-background-free-vector.jpg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 1100px;
+    height: 85%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 50px;
+}
+
+/* img-div */
+.image-div {
+    position: relative;
+    left: 540px;
+    top: 120px;
+}
+
+
+.links {
+    position: relative;
+    bottom: 645px;
+    left: 600px;
+
+    color: rgba(74, 74, 74, 0.5);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.links button {
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(81, 81, 193);
+    color: white;
+    border: none;
+}
+
+.links button:hover {
+    background-color: rgb(8, 8, 207);
+    cursor: pointer;
+}
+
+.h3 {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.h1 {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 250px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.paragraph {
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-name {
+    position: relative;
+    bottom: 190px;
+    left: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(81, 81, 193);
+    color: white;
+    border: none;
+    font-size: 20px
+}
+
+.button-name:hover {
+    background-color: rgb(12, 12, 196);
+    cursor: pointer;
+}

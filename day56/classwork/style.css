@@ -1,0 +1,41 @@
+#parent{
+    width: 600px;
+    height: 400px;
+
+    border-radius: 25px;
+
+    background-image: url('./terjola.png');
+    background-size: 700px;
+    background-position-x: 650px;
+
+    margin-left: 450px;
+    margin-top: 150px;
+    
+    box-shadow: 15px 15px 50px;
+
+    transition: 0.70s;
+}
+
+#parent:hover {
+    box-shadow: -15px -15px 50px;
+    border-radius: 50%;
+}
+
+#parent:active {
+    margin: 0;
+    width: 1500px;
+    height: 700px;
+}
+
+.h1{
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(11, 126, 0);
+
+}
+
+.paragraph{
+    text-align: center;
+}

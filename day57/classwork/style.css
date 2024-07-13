@@ -1,0 +1,27 @@
+/* დავალება 1 */
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main img{
+    flex-direction: row;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+.main p {
+    font-size: 50px;
+
+}

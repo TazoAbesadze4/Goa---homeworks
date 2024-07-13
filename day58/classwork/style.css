@@ -1,0 +1,153 @@
+/* 
+    1. -->
+*/
+
+/* 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid black;
+}
+
+.p1 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid black;
+}
+
+.p2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(74, 246, 0);
+    color: white;
+    border: 2px solid black;
+    align-self: center;
+}
+
+.p3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(5, 60, 236);
+    color: white;
+    border: 2px solid black;
+} 
+*/
+
+
+/* end 1. */
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 5px solid rgb(255, 119, 0);
+    background-color: green;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 30px 10px;
+}
+
+.child {
+    background-color: blueviolet;
+    border: 2px solid rgb(72, 255, 0);
+} */
+
+/* 
+    დავ 1. 
+*/
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 700px;
+    height: 700px;
+    background-color: aqua;
+    border: 5px solid blueviolet;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.child {
+    background-color: green;
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+    grid-column-end: span;
+}
+ */
+
+/* 
+    დავ2
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 1000px;
+    height: 700px;
+
+    border: 5px solid rgb(4, 249, 216);
+    display: grid;
+
+    grid-column: 1fr 1fr;
+
+    padding: 10px
+}
+
+.child1 {
+    background-color: blue;
+}
