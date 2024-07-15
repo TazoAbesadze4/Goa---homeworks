@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 540px;
+    gap: 30px;
+    padding: 0px 200px;
+    font-size: 25px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link button {
+    width: 80px;
+    height: 35px;
+    color: white;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid rgb(97, 97, 192);
+}
+
+.link button:hover {
+    background-color: blue; 
+    color: white;  
+}
+
+.parent {
+    width: 1600px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+
+    position: relative;
+    bottom: 590px;
+    left: 690px;
+    color: rgb(129, 129, 129);
+}
+
+.parent a:hover {
+    color: rgb(0, 42, 250);
+}
+
+.parent a {
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
+.parent a:hover {
+    color: blue;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#div-5 {
+    border-right: 2px solid grey;
+    padding-right: 20px;
+    border-left: 2px solid grey;
+    padding-left: 20px;
+}
+
+.Linked-div {
+    display: flex;
+    position: relative;
+    left: 270px;
+    bottom: 480px;
+    color: blue;
+    font-size: 20px;
+}
+
+.in {
+    width: 25px;
+    height: 20px;
+    padding: 0px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+
+.h1 {
+    color: rgba(255, 10, 10, 0.6);
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    left: 270px;
+    bottom: 330px;
+    font-size: 22px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 230px;
+    right: 790px;
+    color: black;
+}
+
+.form-div input {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    color: black;
+}
+
+.form-div a {
+    color: rgb(0, 42, 255);
+}
+
+.form-div button {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(95, 110, 223);
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.Google {
+    width: 400px;
+    height: 40px;
+    border: 2px solid grey;
+    position: relative;
+    right: 1215px;
+    top: 520px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.Google img {
+    text-align: center;
+    width: 50px;
+}
+
+.Google p {
+    position: relative;
+    top: 10px;
+}
+
+.Linkedin {
+    width: 400px;
+    height: 40px;
+    border: 2px solid grey;
+    position: relative;
+    right: 1215px;
+    top: 550px;
+    border-radius: 30px;
+}
+
+.Linkedin p {
+    position: relative;
+    top: 10px;
+    left: 90px;
+    color: blue;
+}
