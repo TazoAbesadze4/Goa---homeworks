@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/450689069_1267624097553699_5151461626226305403_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFFFGG6rlZbf5QyHJPuv8LpxZVSojzIe0bFlVKiPMh7RlexlADfvRRNqhcVJjHED1ovtQ9RFo4G6czf8dqTelJF&_nc_ohc=lO5nrO3SPF4Q7kNvgH3nk9e&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QF-DSejCFe8I_dLdnGBgS95f9dcjf1rRBV20Lx29Uk8nw&oe=66C18BD5");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.navigation-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.navigation-div a {
+    padding: 10px 0px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navigation-div button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(0, 191, 255);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.navigation-div button:hover {
+    background-color: rgb(0, 139, 199);
+}
+
+.login-signup {
+    padding: 5px 0px;
+}
+
+.login-signup a {
+    padding: 0px 4px;
+}
+
+.h1-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    padding: 100px 0px;
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;  
+    height: 10%;  
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0px 400px;
+    background-color: white;
+}
+
+.input-div input {
+    border: none;
+    outline: none;
+    width: 700px;
+    padding-right: 400px;
+}
+
+.start-with-al-div {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: blueviolet;
+}
+
+.watch {
+    display: flex;
+    font-size: 15px;
+    color: white;
+    padding: 10px 0px;
+    padding-left: 700px;
+    font-family: "Open Sans", sans-serif;
+    gap: 10px;
+}
+
+.watch svg {
+    width: 20px;
+}
+
+.Learn-more {
+    display: flex;
+    padding-left: 700px;
+    padding-top: 115px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+.Learn-more svg {
+    width: 20px;
+}

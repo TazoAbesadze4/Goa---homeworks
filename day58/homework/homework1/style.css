@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: grid;
+    width: 1100px;
+    height: 700px;
+}
+
+.child {
+    background-color: rgb(255, 123, 0);
+    border: 3px solid green;
+}

@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 200px;
+    height: 200px;
+
+    animation-name: gg;
+    animation-duration: 5s;
+    /* animation: infinite; */
+
+    background-color: rgb(0, 255, 132);
+}
+
+@keyframes gg {
+    0% {
+        width: 400px;
+        height: 400px;
+        background-image: url("https://images6.alphacoders.com/335/thumb-1920-335811.jpg");
+        background-position: bottom;
+    }
+
+    10% {
+        background-image: url("https://images6.alphacoders.com/335/thumb-1920-335811.jpg");
+        background-position: bottom;
+    }
+
+    20% {
+        background-image: url("https://images6.alphacoders.com/335/thumb-1920-335811.jpg");
+        background-position: bottom;
+        width: 100px;
+        height: 120px;
+    }
+
+    30% {
+        background-image: url("https://images6.alphacoders.com/335/thumb-1920-335811.jpg");
+        background-position: bottom;        transform: skewX(10deg);
+    }
+
+    40% {
+        background-image: url("https://images6.alphacoders.com/335/thumb-1920-335811.jpg");
+        background-position: bottom;        width: 500px;
+        height: 100px;
+        transform: skewX(-10deg);
+    }
+
+    50% {
+        background-image: url("https://images6.alphacoders.com/335/thumb-1920-335811.jpg");
+        background-position: bottom;    
+    }
+
+    60% {
+        background-image: url("https://images4.alphacoders.com/912/91296.jpg");
+        background-size: cover; 
+        width: 300px;
+        height: 300px;
+        transform: rotateX('angle');
+    }
+
+    70% {
+        background-image: url("https://images4.alphacoders.com/912/91296.jpg");
+        background-size: cover;   
+    }
+
+    80% {
+        background-image: url("https://images4.alphacoders.com/912/91296.jpg");
+        background-size: cover;        
+        width: 122;
+        height: 122;
+    }
+}

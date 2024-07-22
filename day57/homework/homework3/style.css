@@ -137,10 +137,14 @@
 .form-div button {
     width: 400px;
     height: 50px;
-    background-color: rgb(95, 110, 223);
+    background-color: rgb(77, 94, 224);
     color: white;
     border-radius: 30px;
     border: none;
+}
+
+.form-div button:hover {
+    background-color: rgb(17, 0, 255);
 }
 
 .Google {

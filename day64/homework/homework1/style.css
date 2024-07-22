@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    gap: 20px;
+}
+
+.parent div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.parent p {
+    color: white;
+    font-size: 60px;
+}
