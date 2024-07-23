@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,18 +11,492 @@
 }
 
 body {
+    background-color: rgb(50, 50, 50);
+    font-family: "Roboto", sans-serif;
+}
+
+/* პირველი განზომილება */
+.parent {
+    width: 80px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(79, 79, 79);
+    gap: 50px;
+    box-shadow: 0px 0px 10px;
+    transition: color 0.70s;
+}
+
+.parent svg {
+    width: 60px;
+    color: rgba(121, 121, 121, 1.9);
+    padding-left: 20px;
+    transition: color 0.70s;
+}
+
+.parent svg:hover {
+    color: rgb(194, 194, 194);
+}
+
+.parent p:hover {
+    color: rgb(222, 222, 222);
+    text-shadow: 0px 0px 10px black;
+    transition: color 0.70s;
+}
+
+.child p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
+    color: rgba(174, 174, 174, 0.9);
 }
 
-.parent {
+/* მეორე განზომილება */
+
+.parent2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(21, 21, 21);
+}
+
+.paragraph {
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    height: 70px;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(0, 115, 147);
+    text-align: center;
+}
+
+.paragraph p {
+    position: absolute;
+    right: -2px;
+}
+
+.svg01 {
+    position: absolute;
+    left: 140px;
+    padding: 20px 0px;
+    width: 25px;
+    color: rgba(141, 141, 141, 0.9);
+}
+
+p {
+    transform: translateX(-8px);
+}
+
+.About-us {
+    color: rgba(141, 141, 141, 0.9);
+    position: absolute;
+    left: 190px;
+    padding: 23px 0px;
+    text-decoration: none;
+}
+
+.Text {
+    position: absolute;
+    top: 22px;
+    left: 265px;
+    width: 60px;
+    height: 30px;
+    padding: 5px 16px;
+    border-radius: 5px;
+    background-color: rgb(98, 137, 205);
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: width 0.70s, height 0.70s;
+}
+.Text:hover {
+    width: 90px;
+    height: 35px;
+    transition: 0.70s;
+    cursor: pointer;
+}
+
+.job {
+    position: absolute;
+    left: 370px;
+    top: 26px;
+    color: rgba(141, 141, 141, 0.7);
+    text-decoration: none;
+}
+
+.svg02 {
+    position: absolute;
+    left: 1150px;
+    top: 20px;
+    width: 25px;
+    color: rgba(141, 141, 141, 0.9);
+    transition: color 1s;
+}
+
+.svg02:hover {
+    color: rgb(255, 170, 0);
+    transition: 0.50s;
+}
+
+.search {
+    position: absolute;
+    left: 1200px;
+    top: 23px;
+    color: rgba(141, 141, 141, 0.9);
+    text-decoration: none;
+    padding-right: 30px;
+    border-right: 2px solid rgba(141, 141, 141, 0.9);
+}
+
+.svg03 {
+    position: absolute;
+    left: 1300px;
+    top: 20px;
+    width: 25px;
+    color: rgba(141, 141, 141, 0.9);
+}
+
+.svg04 {
+    position: absolute;
+    left: 1350px;
+    top: 20px;
+    width: 25px;
+    color: rgba(141, 141, 141, 0.9);
+    transition: color 1s;
+}
+
+.svg04:hover {
+    color: greenyellow;
+    transition: 0.5s;
+}
+
+.Log-in {
+    position: absolute;
+    left: 1400px;
+    top: 23px;
+    color: rgba(141, 141, 141, 0.9);
+    text-decoration: none;
+}
+
+.svg05 {
+    position: absolute;
+    left: 1450px;
+    top: 20px;
+    width: 25px;
+    color: rgba(0, 208, 255, 0.9);
+}
+
+.svg06 {
+    position: absolute;
+    left: 1490px;
+    top: 20px;
+    width: 25px;
+    color: rgba(0, 60, 255, 0.9);
+    transition: color 1s;
+}
+
+.svg06:hover {
+    color: rgb(0, 204, 255);
+    transition: 0.5s;
+}
+
+
+
+/* main */
+
+.main-div {
     display: grid;
-    width: 1100px;
-    height: 700px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 1200px;
+    height: 620px;
+    background-color: rgb(50, 50, 50);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
-.child {
-    background-color: rgb(255, 123, 0);
-    border: 3px solid green;
+/* 1 */
+.child-1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    font-family: "Indie Flower", cursive;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.text-1 {
+    position: absolute;
+    top: 110px;
+    color: rgba(145, 145, 145, 0.8);
+}
+.text-2 {
+    position: absolute;
+    top: 60px;
+    color: rgba(96, 96, 96, 0.8);
+}
+.text-3 {
+    position: absolute;
+    top: 170px;
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.text-4 {
+    position: absolute;
+    top: 220px;
+    color: rgba(0, 204, 255, 0.8);
+}
+
+.text-5 {
+    position: absolute;
+    top: 260px;
+    color: rgba(157, 0, 255, 0.8);
+}
+
+/* 2 */
+
+.child-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    font-family: "Indie Flower", cursive;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.text-01 {
+    position: absolute;
+    top: 180px;
+    left: 330px;
+    color: rgba(145, 145, 145, 0.8);
+}
+.text-02 {
+    position: absolute;
+    top: 290px;
+    left: 330px;
+    color: rgba(23, 255, 7, 0.8);
+    font-size: 17px;
+}
+.text-03 {
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 16px;
+}
+
+.text-04 {
+    position: absolute;
+    top: 220px;
+    color: rgba(0, 204, 255, 0.8);
+}
+
+.text-05 {
+    position: absolute;
+    top: 260px;
+    color: rgba(157, 0, 255, 0.8);
+}
+
+.image-div {
+    width: 100%;
+    height: 50%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/618/689/original/vector-world-travel-with-map-and-air-planes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* 3 */
+
+
+.child-3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    font-family: "Indie Flower", cursive;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.text-001 {
+    position: absolute;
+    top: 180px;
+    left: 330px;
+    color: rgba(145, 145, 145, 0.8);
+}
+.text-002 {
+    position: absolute;
+    top: 290px;
+    left: 330px;
+    color: rgba(23, 255, 7, 0.8);
+    font-size: 17px;
+}
+.text-003 {
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 16px;
+}
+
+.text-004 {
+    position: absolute;
+    top: 220px;
+    color: rgba(0, 204, 255, 0.8);
+}
+
+.text-005 {
+    position: absolute;
+    top: 260px;
+    color: rgba(157, 0, 255, 0.8);
+}
+
+.image-div-2 {
+    width: 100%;
+    height: 50%;
+    background-image: url("https://wallpapercave.com/wp/wp7920756.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.h2-div {
+    position: absolute;
+    top: 60px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+/* 4 */
+
+.child-4 {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.child-4 h2 {
+    position: absolute;
+    top: 120px;
+    right: 115px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.child-4 p {
+    color: aliceblue;
+    position: absolute;
+    top: 170px;
+    right: 160px;
+    font-size: 14px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.image-div-3 {
+    width: 100%;
+    height: 50%;
+    background-image: url("https://vectorified.com/image/five-stars-vector-11.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* 5 */
+
+.child-5 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.child-5 h2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 470px;
+    left: 75px;
+    color: black;
+    font-size: 40px;
+    font-family: "Permanent Marker", cursive;
+    text-shadow: 0px 0px 10px black;
+}
+
+.child-6 {
+    background-color: rgb(0, 0, 152);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.child-6 h2 {
+    position: absolute;
+    top: 470px;
+    left: 380px;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px black;
+}
+
+.child-7 {
+    background-color: rgb(255, 44, 44);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.child-7 h2 {
+    position: absolute;
+    top: 470px;
+    left: 700px;
+    font-size: 40px;
+    color: rgb(255, 166, 0);
+    font-family: "Permanent Marker", cursive;
+    text-shadow: 0px 0px 10px black;
+}
+
+.child-8 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(215, 187, 0);
+}
+
+.child-8 div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 390px;
+    left: 960px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.svg07 {
+    position: absolute;
+    top: 50px;
+    right: 75px;
+    width: 50px;
+}
+
+.child-8 p {
+    position: absolute;
+    top: 100px;
+    right: 75px;
+    font-size: 20px;
+    text-shadow: 0px 0px 2px black;
 }

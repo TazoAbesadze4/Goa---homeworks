@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.aple img {
+    width: 90px;
+}
+
+.loading {
+    width: 180px;
+    height: 5px;
+    /* background-color: rgba(99, 99, 99, 0.7); */
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 685px;
+    
+    animation-name: loading;
+    animation-duration: 3s;
+}
+
+@keyframes loading {
+    20% {
+        width: 36px;
+        background-color: white;
+    }
+
+    40% {
+        width: 72px;
+        background-color: white;
+    }
+
+    60% {
+        width: 108px;
+        background-color: white;
+    }
+
+    80% {
+        width: 144px;
+        background-color: white;
+    }
+
+    100% {
+        width: 180px;
+        background-color: white;
+    }
+}
