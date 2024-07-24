@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: "Roboto", sans-serif;
+}
+
+/* პირველი განზომილება (მარცხენა) */
+.parent {
+    width: 270px;
+    height: 100%;
+    background-color: rgb(0, 174, 227);
+    display: flex;
+}
+
+.child svg {
+    position: absolute;
+    width: 50px;
+    color: white;
+
+}
+
+.child p {
+    font-size: 25px;
+    margin-left: 60px;
+    position: absolute;
+    top: 13px;
+    color: rgba(255, 255, 255, 0.99);
+}
+
+nav {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
+
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.99);
+
+    transition: padding 0.70s, background-color 0.70s,
+    border-radius 0.70s;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 0, 255);
+
+    transition: padding 0.70s, background-color 0.70s,
+    border-radius 0.70s;
+
+    border-radius: 30px;
+    padding: 2px 20px;
+}
+
+.nav-teg {
+    position: absolute;
+    top: 320px;
+}
+
+svg {
+    color: rgba(255, 255, 255, 0.99);
+    width: 20px;
+}
+
+#svg-1 {
+    position: absolute;
+    top: 76px;
+    left: 30px;
+}
+
+#svg-2 {
+    position: absolute;
+    top: 121px;
+    left: 30px;
+}
+
+#svg-3 {
+    position: absolute;
+    top: 165px;
+    left: 30px;
+}
+
+#svg-4 {
+    position: absolute;
+    top: 207px;
+    left: 30px;
+}
+
+#svg-5 {
+    position: absolute;
+    top: 253px;
+    left: 30px;
+}
+
+#svg-6 {
+    position: absolute;
+    top: 297px;
+    left: 30px;
+}
+
+#svg-7 {
+    position: absolute;
+    top: 396px;
+    left: 30px;
+}
+
+#svg-8 {
+    position: absolute;
+    top: 441px;
+    left: 30px;
+}
+
+#svg-9 {
+    position: absolute;
+    top: 484px;
+    left: 30px;
+}
+
+
+/* მეორე განზომილება (მარჯვენა) */
+
+.parent2 {
+    width: 1266px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    box-shadow: 5px 2px 10px black;
+}
+
+#svg-01 {
+    color: rgb(45, 45, 45);
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+#svg-01:hover {
+    cursor: pointer;
+}
+
+.search-div {
+    width: 600px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgba(192, 192, 192, 0.6);
+    position: absolute;
+    top: 13px;
+    left: 70px;
+}
+.search-div:hover {
+    cursor: pointer;
+}
+
+#svg-02 {
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+.morgan-image {
+    position: absolute;
+    top: 10px;
+    right: 170px;
+}
+
+.morgan {
+    position: absolute;
+    top: 21px;
+    right: 40px;
+}
+
+.morgan-image-2 {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.hi-p {
+    position: absolute;
+    top: 70px;
+    left: 144px;
+}
+
+.h2-morgan {
+    position: absolute;
+    top: 90px;
+    left: 144px;
+}
+
+.button-div {
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    padding: 20px;
+}
+
+.button-01 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 136, 255);
+    border: none;
+    color: white;
+    transition: padding 0.70s;
+}
+.button-01:hover {
+    padding: 10px 50px;
+    transition: padding 0.70s;
+    cursor: pointer;
+}
+
+.button-02 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 136, 255);
+    border: none;
+    color: white;
+    transition: padding 0.70s;
+}
+.button-02:hover {
+    padding: 10px 50px;
+    transition: padding 0.70s;
+    cursor: pointer;
+}
+
+.button-03 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 136, 255);
+    border: none;
+    color: white;
+    transition: padding 0.70s;
+}
+.button-03:hover {
+    padding: 10px 50px;
+    transition: padding 0.70s;
+    cursor: pointer;
+}
+
+
+
+/*  m a i n  */
+
+.main {
+    display: grid;
+    width: 890px;
+    height: 450px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.child-1 {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.child-1 div {
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+}
+.child-1 h3 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 20px;
+}
+.child-1 p {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.child-2 {
+    background-color: white;
+    border-radius: 10px;
+}
+.child-2 div {
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+}
+
+.child-3 div {
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+}
+
+.child-4 {
+    background-color: white;
+    border-radius: 10px;
+}
+.child-4 div {
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+}
+.child-4 h3 {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.child-4 p {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+}
+#main-svg-4 {
+    width: 25px;
+    position: absolute;
+    top: 420px;
+    left: 290px;
+    color: black;
+}
+#main-svg-04 {
+    width: 25px;
+    position: absolute;
+    top: 420px;
+    left: 340px;
+    color: black;
+}
+#main-svg-004 {
+    width: 25px;
+    position: absolute;
+    top: 420px;
+    left: 390px;
+    color: black;
+}
+
+.child-5 {
+    background-color: white;
+    border-radius: 10px;
+}
+.child-5 div {
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+}
+.child-5 h3 {
+    position: absolute;
+    top: 250px;
+    left: 480px;
+}
+.child-5 p {
+    position: absolute;
+    top: 290px;
+    left: 480px;
+}
+
+.child-6 {
+    background-color: white;
+    border-radius: 10px;
+}
+.child-6 div {
+    width: 6px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+}
+
+#main-svg-1 {
+    width: 25px;
+    position: absolute;
+    top: 180px;
+    left: 290px;
+    color: black;
+}
+#main-svg-01 {
+    width: 27px;
+    position: absolute;
+    top: 180px;
+    left: 340px;
+    color: black;
+}
+#main-svg-001 {
+    width: 27px;
+    position: absolute;
+    top: 180px;
+    left: 390px;
+    color: black;
+}
+
+.child-2 h3 {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    font-size: 20px;
+}
+
+.child-2 p {
+    position: absolute;
+    top: 55px;
+    left: 490px;   
+}
+
+#main-svg-2 {
+    width: 25px;
+    position: absolute;
+    top: 180px;
+    left: 760px;
+    color: black;
+}
+#main-svg-02 {
+    width: 27px;
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    color: black;
+}
+#main-svg-002 {
+    width: 27px;
+    position: absolute;
+    top: 180px;
+    left: 850px;
+    color: black;
+}
+
+.child-3 {
+    position: absolute;
+    top: 205px;
+    left: 30px;
+}
+
+#main-svg-3 {
+    width: 25px;
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    color: black;
+}
+#main-svg-03 {
+    width: 27px;
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    color: black;
+}
+#main-svg-003 {
+    width: 27px;
+    position: absolute;
+    top: 120px;
+    left: 360px;
+    color: black;
+}
+
+#main-svg-5 {
+    width: 25px;
+    position: absolute;
+    top: 420px;
+    left: 760px;
+    color: black;
+}
+#main-svg-05 {
+    width: 25px;
+    position: absolute;
+    top: 420px;
+    left: 810px;
+    color: black;
+}
+#main-svg-005 {
+    width: 25px;
+    position: absolute;
+    top: 420px;
+    left: 860px;
+    color: black;
+}
