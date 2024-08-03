@@ -1,0 +1,27 @@
+<!-- შექმენით 2 ღილაკი და ერთი img element, როდესაც პირველ ღილაკზე მოხდება დაკლიკება img-ის source-ი 
+შეიცვალოს სხვა წყაროთი, მეორე ღილაკზე დაკლიკებით განსხვავებული სურათით ჩანაცვლდეს წყარო. კომენტარების საშვალებით ახსენით რა არის მოვლენა 
+-->
+
+<html>
+
+    <head>
+        <title>Onclick</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div>
+            <img id="robot"
+            src="https://blob.sololearn.com/courses/robot-c.jpg">     
+        </div>
+        
+        <br>  
+
+        <div>
+            <button onclick="robot.src='https://scontent.xx.fbcdn.net/v/t1.15752-9/451557943_475966441715807_6016671598731162778_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AuuI3_uGyrgQ7kNvgFm9u5p&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QERhITPFk0M9zbioPzYn6Q3aK5S2_-cNNyQi3UWU08VKg&oe=66D1F9B7'">Left</button>
+
+            <button onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg'">Right</button>
+        </div>
+    </body>
+
+</html>
