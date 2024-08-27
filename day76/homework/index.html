@@ -1,1 +1,22 @@
-<!-- gavaketeb -->
+<!-- 
+1) შექმენით HTML-ის დოკუმენტი და დაამატეთ 2 პარაგრაფი, პირველ პარაგრაფს მიანიჭეთ უნიკალური id, შემდეგ კი გახსენით script element-ი და წამოიღეთ კონკრეტული ელემენტი id-ის დახმარებით, შეცვალეთ წამოღებული ელემენტის ვიზუალური მხარე, მაგალითად შიგთავსი და ფერი
+-->
+
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+
+    <body>
+        <p id="p-1">green</p>
+        <p>blue</p>
+
+        <script>
+            const paragraph = document.getElementById('p-1');
+            paragraph.textContent = 'Goa is the best';
+            paragraph.style.color = 'red';
+            console.log('feqedfuc')
+        </script>
+
+    </body>
+</html>

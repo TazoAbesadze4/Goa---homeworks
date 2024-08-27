@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <p id="count">0</p>
+        <button onclick="Incrementcounter()">add</button>
+        
+        <script>
+            let counter = 0;
+            function Incrementcounter() {
+                counter += 1;
+                document.getElementById('count').textContent = counter; 
+            }
+        </script>
+        <!-- getElementById - იღებს აიდს ელემენტიდან -->
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Password</title>
+</head>
+<body>
+
+    <form>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" oninput="validatePassword()">
+        <span id="passwordMessage" style="color: rgba(2, 63, 63, 0.644);"></span>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validatePassword() {
+            const passwordField = document.getElementById('password');
+            const messageSpan = document.getElementById('passwordMessage');
+
+            if (passwordField.value.length < 8) {
+                messageSpan.textContent = 'Password must be at least 8 characters long.';
+            } else {
+                messageSpan.textContent = '';
+            }
+        }
+    </script>
+
+</body>
+</html>
