@@ -1,0 +1,41 @@
+<!-- 
+შექმენით ფორმა და ცხრილი, ფორმის დადასტურებისას მონაცემები უნდა დაემატოს ცხრილში ახალი რიგის სახით, კომენტარებით ახსენით თითოეული ნაბიჯი, როცა 
+დაასრულებთ პროტოტიპს შემდეგ დაყავი კოდი 2 ნაწილად,
+კონტეინერ და წარმოსადგენ ფუნქციებადრომ გაამარტივოთ თქვენი კოდი
+-->
+
+<html>
+    <head>
+        <title>classwork88</title>
+    </head>
+
+    <body>
+
+        <form id="myForm">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="Email">Email: </label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="Password">Password: </label>
+            <input type="Password" id="Password" name="Password">
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Password</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+        </table>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
