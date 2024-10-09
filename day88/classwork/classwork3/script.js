@@ -3,32 +3,51 @@ const compScoreP = document.getElementById('comp-score');
 const winsP = document.getElementById('wins');
 const btnsDiv = document.getElementById('btns');
 
-const choic = ['rock', 'paper', 'scissors'];
+const well = document.getElementById('well');
+const paper = document.getElementById('paper');
+const scissors = document.getElementById('scissors');
 
-let myScore = 0;
-let compScore = 0;
 
-btnsDiv.addEventListener('click', function(e){
-    const btnId = e.target.dispatchEvent;
+const arr = ['well', 'paper', 'scissors'];
 
-    const compChoice = choic[Math.floor(Math.random() * choic.length)];
+console.log('Compiuter scores')
+console.log('')
 
-    if(btnId === compChoice) {
-        winsP.textContent = 'Its a tie!';
-    }
 
-    else if((btnId === 'rock' && compChoice === 'paper') || (btnId === 'scissors' && compChoice === "rock") || (btnId === 'paper' && compChoice === 'scissors')) {
-        compScore++;
-        compScoreP.textContent = compScore;
-        winsP.textContent = 'you lose!';
-    }
+well.addEventListener('click', function(){
+    let randomWord = arr[Math.trunc(Math.random() * 3)];
+    
+    if(randomWord === 'scissors') {
+        compScoreP.innerHTML = Number(compScoreP.innerText) + 1
+    } else if(randomWord === 'paper') {
+        myScoreP.innerHTML = Number(myScoreP.innerText) + 1
+    } 
 
-    else {
-        myScore++;
-        myScoreP.textContent = myScore;
-        winsP.textContent = 'you won!'
-    }
+    console.log(randomWord)
 })
 
+// ფურცელი(paper),  ჭა(well),  მაკრატელი(scissors)
 
-// kodi ar mushaobs
+paper.addEventListener('click', function(){
+    let randomWord = arr[Math.trunc(Math.random() * 3)];
+    
+    if(randomWord === 'scissors') {
+        myScoreP.innerHTML = Number(myScoreP.innerHTML) + 1
+    } else if(randomWord === 'well') {
+        compScoreP.innerHTML = Number(compScoreP.innerText) + 1
+    }
+
+    console.log(randomWord)
+})
+
+scissors.addEventListener('click', function(){
+    let randomWord = arr[Math.trunc(Math.random() * 3)];
+    
+    if(randomWord === 'paper') {
+        compScoreP.innerHTML = Number(compScoreP.innerHTML) + 1;
+    } else if(randomWord === 'well') {
+        myScoreP.innerHTML = Number(myScoreP.innerText) + 1;
+    }
+
+    console.log(randomWord)
+})
